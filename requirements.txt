@@ -1,0 +1,26 @@
+anaconda-client==1.7.2
+anaconda-navigator==1.9.12
+anaconda-project==0.8.3
+bit==0.8.0
+bitarray==1.2.2
+bitcoin==1.1.42
+bitstring==3.1.7
+certifi==2020.12.5
+eth-abi==2.1.1
+eth-account==0.5.6
+eth-hash==0.3.2
+eth-keyfile==0.5.1
+eth-keys==0.3.3
+eth-rlp==0.2.1
+eth-typing==2.2.2
+eth-utils==1.10.0
+json5==0.9.5
+jsonschema==3.2.0
+python-dateutil==2.8.1
+python-dotenv==0.19.0
+python-jsonrpc-server @ file:///tmp/build/80754af9/python-jsonrpc-server_1594397536060/work
+requests==2.25.1
+requests-cache==0.5.2
+requests-oauthlib==1.3.0
+ujson==1.35
+web3==5.25.0
