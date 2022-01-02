@@ -36,3 +36,23 @@ Included print function in the wallet.py file will print out 3 accounts for each
 <p align="center">
   <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/Derive%20Wallet%20Keys.PNG">
 </p>
+
+## Bitcoin Testnet transaction
+
+Within the Python shell, run below commands
+
+```
+from wallet import *
+acc = priv_key_to_account('btc-test', 'cVAgDoahzo5Ucdv8ioxxubvmE6LfU3ZQgJ21UvY4eC1xi6WkvnXe')
+send_tx('btc-test', acc, 'cVAgDoahzo5Ucdv8ioxxubvmE6LfU3ZQgJ21UvY4eC1xi6WkvnXe', 0.000005)
+```
+
+<p align="center">
+  <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/btc-test%20transaction.PNG">
+</p>
+
+### Bitcoin Testnet transaction confirmation
+
+<p align="center">
+  <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/btc-test%20transaction%20confirmation.PNG">
+</p>
