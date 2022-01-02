@@ -20,3 +20,11 @@ curl https://getcomposer.org/installer -o installer.php
 php installer.php
 php composer.phar install
 ```
+
+If all setup correctly, run the below command and output should be as below.
+
+`./derive --key=xprv9zbB6Xchu2zRkf6jSEnH9vuy7tpBuq2njDRr9efSGBXSYr1QtN8QHRur28QLQvKRqFThCxopdS1UD61a5q6jGyuJPGLDV9XfYHQto72DAE8 --cols=path,address --coin=ZEC --numderive=3 -g`
+
+<p align="center">
+  <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/Link%20Test.PNG">
+</p>
