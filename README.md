@@ -28,3 +28,11 @@ If all setup correctly, run the below command and output should be as below.
 <p align="center">
   <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/Link%20Test.PNG">
 </p>
+
+## Derive the wallet keys
+
+Included print function in the wallet.py file will print out 3 accounts for each ETH and BTCTEST based on the mnemonic in the .env file.
+
+<p align="center">
+  <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/Derive%20Wallet%20Keys.PNG">
+</p>
