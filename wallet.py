@@ -55,7 +55,7 @@ def create_tx(coin, account, to, amount):
             "gasPrice": w3.eth.gasPrice,
             "gas": gasEstimate,
             "nonce": w3.eth.getTransactionCount(account.address),
-            "chainID": w3.eth.getChainId()
+            "chainId": 1337 #Geth private chains (default) - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md
         }
     elif coin==BTCTEST:
         return PrivateKeyTestnet.prepare_transaction(account.address, [(to, amount, 'btc')])
