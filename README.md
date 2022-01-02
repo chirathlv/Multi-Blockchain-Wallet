@@ -56,3 +56,17 @@ send_tx('btc-test', acc, 'cVAgDoahzo5Ucdv8ioxxubvmE6LfU3ZQgJ21UvY4eC1xi6WkvnXe',
 <p align="center">
   <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/btc-test%20transaction%20confirmation.PNG">
 </p>
+
+## Local PoA Ethereum transaction
+
+Add one of the ETH addresses to the pre-allocated accounts in your `networkname.json`. Delete the geth folder in each node, then re-initialize using `./geth --datadir nodeX init networkname.json`. This will create a new chain, and will pre-fund the new account.
+
+<p align="center">
+  <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/eth%20connection.PNG">
+</p>
+
+### Local PoA Ethereum transaction confirmation
+
+<p align="center">
+  <img src="https://github.com/chirathlv/Multi-Blockchain-Wallet/blob/main/Images/eth%20connection%20confirmation.PNG">
+</p>
